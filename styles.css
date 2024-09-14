@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('path-to-your-background-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .coming-soon-container {
+    background-color: rgba(165, 137, 26, 0.8); /* Creamy nostalgic overlay */
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .brand-name {
+    font-size: 50px;
+    color: #A52A2A; /* Deep brown */
+  }
+  
+  .tagline {
+    font-size: 24px;
+    color: #D2691E; /* Cinnamon color */
+    margin-top: 10px;
+  }
+  
+  .coming-soon-text {
+    font-size: 30px;
+    color: #8B4513; /* Soft brown */
+    margin-top: 20px;
+  }
+  
