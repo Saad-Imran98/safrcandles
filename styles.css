@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.logo {
+  width: 150px;  /* Adjust the size as necessary */
+  height: auto;
+}
   
   body {
     font-family: 'Arial', sans-serif;
