@@ -1,10 +1,11 @@
-import './App.css'
-import SafrCandles from "./components/home";
+import SafrCandles from "./components/Home";
+import NavBar from "./components/Navbar";
 
 function App() {
 
   return (
       <div className="App">
+          <NavBar/>
           <SafrCandles />
       </div>
   )
