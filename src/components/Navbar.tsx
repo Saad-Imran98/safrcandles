@@ -1,5 +1,5 @@
 import "./NavBarStyles.css";
-import {Typography} from "@mui/material";
+import logo from "../assets/1.svg";
 import {AccountBox, Search, ShoppingBasket} from "@mui/icons-material";
 export default function NavBar() {
     return (
@@ -19,7 +19,7 @@ export default function NavBar() {
                 <a>About</a>
                 <div></div>
             </ul>
-            <a><Typography fontFamily={"cursive"} variant="h2">Safr</Typography></a>
+            <img src={logo} alt="logo" style={{width: "100%", height: "100%"}}/>
             <ul style={{display: "flex", flexDirection: "row", gap: "50px", marginRight: "50px"}}>
                 <a>Sign In</a>
                 <a><ShoppingBasket style={{width: "30px", height: "30px"}}/></a>
